@@ -6,6 +6,19 @@
 (function () {
   'use strict';
 
+  // ==================== Hero : reveal immédiat (pas d'attente de scroll) ====================
+  // Les éléments du hero sont visibles à l'ouverture de la page → on les révèle avant tout
+  const revealHeroNow = () => {
+    document.querySelectorAll('.hero .reveal, .contact-hero .reveal').forEach((el) => {
+      el.classList.add('revealed');
+    });
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', revealHeroNow);
+  } else {
+    revealHeroNow();
+  }
+
   // ==================== Navigation mobile ====================
   const navToggle = document.getElementById('navToggle');
   const navMenu = document.getElementById('navMenu');
