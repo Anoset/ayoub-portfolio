@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayoub Seterrahmane · Développeur Web Freelance · Site pro livré en 7 jours</title>
+  <meta name="description" content="Développeur web freelance. Je conçois des sites modernes, rapides et sur-mesure pour artisans, commerces et PME. Brief en 10 min, site livré en 7 jours.">
+  <meta name="keywords" content="développeur web freelance, création site internet, site vitrine, site sur-mesure, freelance France">
+  <meta name="author" content="Ayoub Seterrahmane">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#6366f1">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ayoub Seterrahmane · Développeur Web Freelance">
+  <meta property="og:description" content="Votre site pro, conçu sur-mesure et livré en 7 jours. Brief simple, code artisanal, résultat qui convertit.">
+  <meta property="og:url" content="https://ayoub-seterrahmane.fr/">
+  <meta property="og:image" content="https://ayoub-seterrahmane.fr/assets/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Ayoub Seterrahmane">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ayoub Seterrahmane · Développeur Web Freelance">
+  <meta name="twitter:description" content="Votre site pro, conçu sur-mesure et livré en 7 jours.">
+  <meta name="twitter:image" content="https://ayoub-seterrahmane.fr/assets/images/og-image.png">
+
+  <link rel="canonical" href="https://ayoub-seterrahmane.fr/">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JSON-LD : Person + ProfessionalService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://ayoub-seterrahmane.fr/#person",
+        "name": "Ayoub Seterrahmane",
+        "jobTitle": "Développeur Web Freelance",
+        "email": "ayoub.seterrahmane@gmail.com",
+        "telephone": "+33768854930",
+        "url": "https://ayoub-seterrahmane.fr/",
+        "knowsAbout": ["Développement web", "HTML", "CSS", "JavaScript", "SEO", "Design web"],
+        "workLocation": { "@type": "Country", "name": "France" }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://ayoub-seterrahmane.fr/#service",
+        "name": "Ayoub Seterrahmane — Développement Web Freelance",
+        "description": "Création de sites web sur-mesure : vitrines, portfolios, e-commerce. Process rapide via formulaire en ligne, livraison en 7 à 14 jours.",
+        "provider": { "@id": "https://ayoub-seterrahmane.fr/#person" },
+        "areaServed": "FR",
+        "priceRange": "€€",
+        "telephone": "+33768854930",
+        "email": "ayoub.seterrahmane@gmail.com",
+        "url": "https://ayoub-seterrahmane.fr/",
+        "serviceType": "Création de sites internet",
+        "offers": [
+          { "@type": "Offer", "name": "Site Vitrine Simple", "price": "600", "priceCurrency": "EUR" },
+          { "@type": "Offer", "name": "Site Vitrine Soigné", "price": "1200", "priceCurrency": "EUR" },
+          { "@type": "Offer", "name": "Site avec Fonctionnalités", "price": "2500", "priceCurrency": "EUR" },
+          { "@type": "Offer", "name": "E-commerce", "price": "3000", "priceCurrency": "EUR" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="nav-container">
+      <a href="/" class="nav-logo" aria-label="Ayoub Seterrahmane — Accueil">
+        <span class="nav-logo-mark" aria-hidden="true">A</span>
+        <span>Ayoub<span style="color: var(--text-muted)">.dev</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu" aria-label="Navigation principale">
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#portfolio" class="nav-link">Réalisations</a>
+        <a href="#tarifs" class="nav-link">Tarifs</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="https://formulaireprestation.pages.dev/" class="btn btn-primary nav-cta" target="_blank" rel="noopener">
+          Démarrer un projet
+          <span class="btn-arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow reveal">Développeur web freelance · disponible</span>
+          <h1 class="reveal reveal-delay-1">
+            Votre site pro,<br>
+            <span class="gradient-text">livré en 7 jours.</span>
+          </h1>
+          <p class="hero-tagline reveal reveal-delay-2">
+            Je suis <strong>Ayoub Seterrahmane</strong>. Je conçois des sites modernes, rapides et sur-mesure — pas un template WordPress bricolé, du <strong>code artisanal</strong> qui vous ressemble et qui convertit.
+          </p>
+          <div class="hero-cta-group reveal reveal-delay-3">
+            <a href="https://formulaireprestation.pages.dev/" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+              Démarrer votre projet
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+            <a href="#portfolio" class="btn btn-secondary btn-lg">
+              Voir les réalisations
+            </a>
+          </div>
+          <div class="hero-stats reveal reveal-delay-4">
+            <div class="hero-stat">
+              <span class="hero-stat-value">7 jours</span>
+              <span class="hero-stat-label">Délai moyen</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">100%</span>
+              <span class="hero-stat-label">Sur-mesure</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">&gt; 90</span>
+              <span class="hero-stat-label">Score Lighthouse</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">0</span>
+              <span class="hero-stat-label">Template utilisé</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Comment ça marche</span>
+          <h2>Un process simple, un résultat <span class="gradient-text">pro</span>.</h2>
+          <p>Pas besoin d'être expert. Vous remplissez un brief en 10 minutes, je m'occupe du reste.</p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card reveal">
+            <div class="process-number">01</div>
+            <h3>Vous remplissez le brief</h3>
+            <p>Un formulaire intelligent qui capture vos besoins en 10 minutes. Secteur, pages, style, budget — tout y est.</p>
+          </article>
+
+          <article class="process-card reveal reveal-delay-1">
+            <div class="process-number">02</div>
+            <h3>Je conçois votre site</h3>
+            <p>Design sur-mesure, code artisanal. Mobile-first, SEO optimisé, conforme RGPD. Pas de template recyclé.</p>
+          </article>
+
+          <article class="process-card reveal reveal-delay-2">
+            <div class="process-number">03</div>
+            <h3>Vous validez</h3>
+            <p>Je vous envoie une preview. Vous donnez votre retour, j'ajuste. Autant d'allers-retours que nécessaire.</p>
+          </article>
+
+          <article class="process-card reveal reveal-delay-3">
+            <div class="process-number">04</div>
+            <h3>Votre site est en ligne</h3>
+            <p>Livraison clé en main. Hébergement configuré, nom de domaine connecté, SSL actif. Prêt à vendre.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Réalisations</span>
+          <h2>Des sites qui <span class="gradient-text">travaillent</span> pour leurs clients.</h2>
+          <p>Chaque projet est unique. Même code soigné, même exigence de qualité.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Presta Sweet -->
+          <article class="project-card reveal">
+            <div class="project-image" aria-hidden="true">
+              <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="ps-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ec4899"/>
+                    <stop offset="100%" stop-color="#f97316"/>
+                  </linearGradient>
+                </defs>
+                <rect width="400" height="250" fill="#1c1c28"/>
+                <rect x="40" y="30" width="320" height="20" rx="4" fill="url(#ps-grad)" opacity="0.9"/>
+                <rect x="40" y="60" width="200" height="10" rx="2" fill="#2a2a3d"/>
+                <rect x="40" y="95" width="145" height="90" rx="8" fill="#22222e"/>
+                <rect x="195" y="95" width="145" height="90" rx="8" fill="#22222e"/>
+                <circle cx="112" cy="135" r="20" fill="url(#ps-grad)" opacity="0.6"/>
+                <circle cx="267" cy="135" r="20" fill="url(#ps-grad)" opacity="0.6"/>
+                <rect x="40" y="200" width="100" height="30" rx="15" fill="url(#ps-grad)"/>
+              </svg>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Événementiel</span>
+                <span class="project-tag">Vitrine</span>
+                <span class="project-tag">En production</span>
+              </div>
+              <h3>Presta Sweet</h3>
+              <p>Entreprise familiale d'événementiel (60/80) : location de structures gonflables, photobooths, machines à barbe à papa, DJ, animations. Catalogue produits, galerie photos et formulaire de contact intégrés.</p>
+              <a href="https://prestasweet.fr" class="project-link" target="_blank" rel="noopener">
+                Visiter le site <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Le Petit Bistrot -->
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-image" aria-hidden="true">
+              <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="lpb-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#d4a574"/>
+                    <stop offset="100%" stop-color="#8b4513"/>
+                  </linearGradient>
+                </defs>
+                <rect width="400" height="250" fill="#1c1c28"/>
+                <rect x="40" y="30" width="320" height="80" rx="8" fill="url(#lpb-grad)" opacity="0.3"/>
+                <text x="200" y="75" text-anchor="middle" fill="#d4a574" font-family="Georgia, serif" font-size="22" font-style="italic" font-weight="bold">Le Petit Bistrot</text>
+                <rect x="40" y="130" width="100" height="60" rx="6" fill="#22222e"/>
+                <rect x="150" y="130" width="100" height="60" rx="6" fill="#22222e"/>
+                <rect x="260" y="130" width="100" height="60" rx="6" fill="#22222e"/>
+                <circle cx="90" cy="160" r="10" fill="url(#lpb-grad)"/>
+                <circle cx="200" cy="160" r="10" fill="url(#lpb-grad)"/>
+                <circle cx="310" cy="160" r="10" fill="url(#lpb-grad)"/>
+                <rect x="150" y="210" width="100" height="25" rx="12" fill="url(#lpb-grad)"/>
+              </svg>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Restaurant</span>
+                <span class="project-tag">SEO local</span>
+                <span class="project-tag">Schema.org</span>
+              </div>
+              <h3>Le Petit Bistrot</h3>
+              <p>Site vitrine complet pour un restaurant lyonnais : accueil, menu, horaires, contact. SEO local avec schema.org Restaurant, JSON-LD structuré, mentions légales et politique de confidentialité conformes RGPD.</p>
+              <span class="project-link">
+                Projet démonstration <span aria-hidden="true">→</span>
+              </span>
+            </div>
+          </article>
+
+          <!-- Placeholder 1 -->
+          <article class="project-card project-placeholder reveal reveal-delay-2">
+            <div>
+              <div class="project-placeholder-icon" aria-hidden="true">+</div>
+              <h3>Votre projet ici ?</h3>
+              <p>Un site qui vous ressemble, livré clé en main.</p>
+              <a href="https://formulaireprestation.pages.dev/" class="btn btn-secondary" target="_blank" rel="noopener">
+                Démarrer
+                <span class="btn-arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TARIFS -->
+    <section class="section" id="tarifs">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Tarifs transparents</span>
+          <h2>Un budget clair, <span class="gradient-text">zéro surprise</span>.</h2>
+          <p>Quatre formules pour couvrir 95% des besoins. Devis détaillé après votre brief, sans engagement.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card reveal">
+            <div class="pricing-name">Vitrine Simple</div>
+            <div class="pricing-price">
+              <span class="pricing-from">dès</span>
+              <span class="pricing-amount">600</span>
+              <span class="pricing-currency">€</span>
+            </div>
+            <p class="pricing-desc">Parfait pour démarrer avec une présence en ligne pro.</p>
+            <ul class="pricing-features">
+              <li>Jusqu'à 5 pages</li>
+              <li>100% responsive mobile</li>
+              <li>Formulaire de contact</li>
+              <li>Mentions légales + RGPD</li>
+              <li>SEO de base</li>
+            </ul>
+            <a href="https://formulaireprestation.pages.dev/" class="btn btn-ghost" target="_blank" rel="noopener">
+              Démarrer
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="pricing-card featured reveal reveal-delay-1">
+            <span class="pricing-badge">Le plus demandé</span>
+            <div class="pricing-name">Vitrine Soigné</div>
+            <div class="pricing-price">
+              <span class="pricing-from">dès</span>
+              <span class="pricing-amount">1 200</span>
+              <span class="pricing-currency">€</span>
+            </div>
+            <p class="pricing-desc">Design sur-mesure, animations et SEO optimisé pour convertir.</p>
+            <ul class="pricing-features">
+              <li>8 à 15 pages</li>
+              <li>Design 100% sur-mesure</li>
+              <li>Animations et micro-interactions</li>
+              <li>SEO avancé + structured data</li>
+              <li>Formulaires et intégrations</li>
+              <li>Performance Lighthouse &gt; 90</li>
+            </ul>
+            <a href="https://formulaireprestation.pages.dev/" class="btn btn-primary" target="_blank" rel="noopener">
+              Démarrer
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="pricing-card reveal reveal-delay-2">
+            <div class="pricing-name">Fonctionnalités</div>
+            <div class="pricing-price">
+              <span class="pricing-from">dès</span>
+              <span class="pricing-amount">2 500</span>
+              <span class="pricing-currency">€</span>
+            </div>
+            <p class="pricing-desc">Quand vous avez besoin de plus qu'une vitrine.</p>
+            <ul class="pricing-features">
+              <li>Tout de l'offre Soigné</li>
+              <li>Espace client / dashboard</li>
+              <li>Base de données</li>
+              <li>Authentification</li>
+              <li>Intégrations API tierces</li>
+            </ul>
+            <a href="https://formulaireprestation.pages.dev/" class="btn btn-ghost" target="_blank" rel="noopener">
+              Démarrer
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="pricing-card reveal reveal-delay-3">
+            <div class="pricing-name">E-commerce</div>
+            <div class="pricing-price">
+              <span class="pricing-from">dès</span>
+              <span class="pricing-amount">3 000</span>
+              <span class="pricing-currency">€</span>
+            </div>
+            <p class="pricing-desc">Boutique en ligne complète, prête à vendre.</p>
+            <ul class="pricing-features">
+              <li>Catalogue illimité</li>
+              <li>Panier + paiement sécurisé</li>
+              <li>Gestion des commandes</li>
+              <li>Espace client</li>
+              <li>SEO produits optimisé</li>
+              <li>CGV + conformité RGPD</li>
+            </ul>
+            <a href="https://formulaireprestation.pages.dev/" class="btn btn-ghost" target="_blank" rel="noopener">
+              Démarrer
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- POURQUOI MOI -->
+    <section class="section" id="pourquoi">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Pourquoi moi</span>
+          <h2>Ce que vous <span class="gradient-text">n'aurez pas</span> ailleurs.</h2>
+          <p>Ce qui me différencie : rapidité, qualité, et un code qui vous appartient vraiment.</p>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">⚡</div>
+            <h3>Rapidité</h3>
+            <p>Livraison en 7 à 14 jours. Pas trois mois. Je garde des créneaux courts pour tenir mes délais.</p>
+          </article>
+
+          <article class="why-card reveal reveal-delay-1">
+            <div class="why-icon" aria-hidden="true">✓</div>
+            <h3>Tout compris</h3>
+            <p>SEO, mentions légales RGPD, responsive, hébergement, SSL. Vous n'avez rien à gérer derrière.</p>
+          </article>
+
+          <article class="why-card reveal reveal-delay-2">
+            <div class="why-icon" aria-hidden="true">◆</div>
+            <h3>Qualité pro</h3>
+            <p>Code propre, performances optimales, accessibilité respectée. Score Lighthouse systématiquement au-dessus de 90.</p>
+          </article>
+
+          <article class="why-card reveal reveal-delay-3">
+            <div class="why-icon" aria-hidden="true">✕</div>
+            <h3>Pas de WordPress</h3>
+            <p>Du code artisanal sur-mesure, pas un thème modifié. Votre site est unique, rapide, et vous appartient à 100%.</p>
+          </article>
+
+          <article class="why-card reveal reveal-delay-4">
+            <div class="why-icon" aria-hidden="true">♡</div>
+            <h3>Support après livraison</h3>
+            <p>Je reste disponible une fois le site en ligne. Une question, un ajustement ? Je réponds, sans vous facturer au ticket.</p>
+          </article>
+
+          <article class="why-card reveal reveal-delay-4">
+            <div class="why-icon" aria-hidden="true">⟳</div>
+            <h3>Process transparent</h3>
+            <p>Brief structuré, validation en continu, aucune mauvaise surprise. Vous voyez exactement où en est votre projet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box reveal">
+          <span class="eyebrow">Prêt à démarrer ?</span>
+          <h2 style="margin-top: var(--sp-4);">Votre brief en <span class="gradient-text">10 minutes</span>.</h2>
+          <p>Un formulaire intelligent qui capture exactement ce dont vous avez besoin. Pas de blabla, pas de call inutile. Vous remplissez, je vous envoie un devis précis sous 24h.</p>
+          <a href="https://formulaireprestation.pages.dev/" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+            Remplir le brief
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo" aria-label="Ayoub Seterrahmane — Accueil">
+            <span class="nav-logo-mark" aria-hidden="true">A</span>
+            <span>Ayoub<span style="color: var(--text-muted)">.dev</span></span>
+          </a>
+          <p>Développeur web freelance. Sites sur-mesure livrés rapidement, pour artisans, commerces et PME qui veulent une vraie présence en ligne.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#portfolio">Réalisations</a></li>
+            <li><a href="#tarifs">Tarifs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://formulaireprestation.pages.dev/" target="_blank" rel="noopener">Démarrer un projet</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Légal</h4>
+          <ul>
+            <li><a href="mentions-legales.html">Mentions légales</a></li>
+            <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+            <li><a href="#" id="openCookies">Paramétrer les cookies</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Ayoub Seterrahmane. Tous droits réservés.</p>
+        <p>Conçu et développé avec soin. <span style="color: var(--accent-light)">♦</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- COOKIE BANNER -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-labelledby="cookieTitle" aria-describedby="cookieDesc">
+    <h3 id="cookieTitle">🍪 Cookies</h3>
+    <p id="cookieDesc">Ce site utilise des cookies pour améliorer votre expérience. Aucune donnée personnelle n'est partagée sans votre consentement. <a href="politique-confidentialite.html">En savoir plus</a>.</p>
+    <div class="cookie-actions">
+      <button class="btn btn-ghost" data-cookie="reject">Refuser</button>
+      <button class="btn btn-primary" data-cookie="accept">Accepter</button>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/cookies.js" defer></script>
+</body>
+</html>
